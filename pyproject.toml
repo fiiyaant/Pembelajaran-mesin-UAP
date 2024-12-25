@@ -1,0 +1,18 @@
+[project]
+name = "latihan6---Copy"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "nur fitri", email = "nurfitriyanti800@gmail.com"},
+    {name = "fitri", email = "nurfitriyanti800@gmail.com"},
+]
+dependencies = [
+    "streamlit>=1.41.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
