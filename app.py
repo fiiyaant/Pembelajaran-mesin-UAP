@@ -105,7 +105,7 @@ if st.button("Prediksi Sentimen 🧠"):
 st.markdown(
     """
     <hr style='border:1px solid #3A7D44;'>
-    <p style='text-align: center; color: #555;'>Dikembangkan oleh Tim Analisis Sentimen Wisata © 2023</p>
+    <p style='text-align: center; color: #555;'>Dikembangkan oleh Nur Fitri Yanti</p>
     """,
     unsafe_allow_html=True
 )
