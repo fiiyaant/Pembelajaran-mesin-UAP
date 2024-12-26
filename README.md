@@ -6,10 +6,10 @@
 ## **Table of Contents**
 - [About](#about)
 - [Dataset](#dataset)
-- [Analisis dan Code](#analisis-dan-code)
-- [Dependencies](#dependencies)
-- [Tutorial](#tutorial)
-- [Hasil dan Analisis](#hasil-dan-analisis)
+- [Installation](#Installation)
+- [Model Description](#Model-Description)
+- [Result](#Result)
+- [web](#web)
 - [Anggota Tim](#anggota-tim)
 
 ---
@@ -21,9 +21,14 @@ Proyek ini bertujuan untuk menganalisis sentimen dari ulasan wisata alam yang di
 - Menggunakan model deep learning seperti LSTM dan GRU untuk memberikan prediksi sentimen yang akurat.
 
 ---
+**Fitur Utama Aplikasi:**
+
+- Prediksi Sentimen: Mengelompokkan ulasan ke dalam kategori positif, netral, atau negatif.
+- Visualisasi Hasil: Menampilkan distribusi probabilitas hasil prediksi.
+= Model Interaktif: Pilih antara model LSTM atau GRU untuk prediksi.
 ---
 
-## Dataset
+## 📊Dataset
 
 **Deskripsi Dataset:**
 Dataset berisi ulasan wisata alam yang mencakup beberapa kolom:
@@ -37,6 +42,83 @@ Dataset berisi ulasan wisata alam yang mencakup beberapa kolom:
 | `rating`        | Skor sentimen dalam skala 1-5.         |
 | `facility`      | Aspek fasilitas wisata.                |
 | `accessibility` | Tingkat aksesibilitas ke lokasi.       |
+
+---
+## ⚙️ Installation
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di lokal Anda:
+**1.Clone Repository**
+
+```
+git clone https://github.com/fiiyaant/Pembelajaran-mesin-UAP.git
+cd Pembelajaran-mesin-UAP
+```
+**2. Install Dependencies Gunakan file requirements.txt untuk menginstal semua**
+
+- Depedencies:
+```
+pip install -r requirements.txt
+```
+**3.Run Application Jalankan aplikasi Streamlit:**
+```
+streamlit run app.py
+```
+---
+## 🧠 Model Description
+Proyek ini menggunakan dua model utama untuk analisis sentimen:
+
+**1.LSTM (Long Short-Term Memory):**
+- Arsitektur:
+- Embedding Layer
+  - LSTM Layers (128 dan 64 unit)
+  - Dense Layer (32 unit, ReLU)
+  - Output Layer (5 kelas, Softmax)
+- Akurasi: 65%
+- F1-Score Kelas Mayoritas: 0.79
+
+**2.GRU (Gated Recurrent Unit):**
+- rsitektur:
+- Embedding Layer
+    - GRU Layers (128 dan 64 unit)
+    - Dense Layer (32 unit, ReLU)
+    - Output Layer (5 kelas, Softmax)
+- Akurasi: 65%
+- F1-Score Kelas Mayoritas: 0.79
+---
+## 📈  Results
+
+**LSTM**
+| Kelas | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 1     | 0.00      | 0.00   | 0.00     | 38      |
+| 2     | 0.00      | 0.00   | 0.00     | 35      |
+| 3     | 0.00      | 0.00   | 0.00     | 176     |
+| 4     | 0.00      | 0.00   | 0.00     | 559     |
+| 5     | 0.65      | 1.00   | 0.79     | 1516    |
+- Analisis:
+  - Model memiliki performa yang baik untuk kelas mayoritas (kelas 5) dengan nilai Recall sebesar 1.00 (artinya semua sampel kelas 5 berhasil diklasifikasikan).
+  - Namun, performa pada kelas minoritas (kelas 1, 2, 3, dan 4) sangat buruk dengan nilai Precision dan Recall sebesar 0.00. Hal ini menunjukkan bahwa model cenderung bias terhadap kelas mayoritas.
+  - Kesimpulan: Model cenderung mengalami masalah class imbalance, di mana kelas mayoritas mendominasi hasil prediksi, sedangkan kelas minoritas terabaikan.
+
+**GRU**
+| Kelas | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 1     | 0.00      | 0.00   | 0.00     | 38      |
+| 2     | 0.00      | 0.00   | 0.00     | 35      |
+| 3     | 0.00      | 0.00   | 0.00     | 176     |
+| 4     | 0.50      | 0.00   | 0.00     | 559     |
+| 5     | 0.65      | 1.00   | 0.79     | 1516    |
+- Analisis:
+  - Sama seperti LSTM, model GRU juga menunjukkan performa yang baik pada kelas mayoritas (kelas 5) dengan nilai Recall sebesar 1.00.
+  - Performanya sedikit lebih baik pada kelas 4 dibandingkan dengan LSTM, dengan nilai     Precision sebesar 0.50, meskipun nilai Recall tetap rendah.
+  - Namun, untuk kelas minoritas lainnya (kelas 1, 2, dan 3), model tidak mampu memberikan  prediksi yang baik (Precision dan Recall sebesar 0.00).
+  - Kesimpulan: Sama seperti LSTM, model GRU juga mengalami masalah class imbalance, meskipun       sedikit lebih baik dalam menangani kelas minoritas tertentu (kelas 4).
+---
+🌐 Web
+Aplikasi ini memiliki antarmuka web interaktif yang memungkinkan pengguna memasukkan ulasan wisata dan memilih model untuk prediksi. Berikut adalah cuplikan aplikasi web:
+
+
+---
 
 ---
 ## Penyusun
