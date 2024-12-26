@@ -137,7 +137,7 @@ Berikut fitur utama dari tampilan web ini:
 
 ---
 
-Aplikasi web ini dapat diakses melalui tautan berikut:  ![Sentimen Wisata](https://pembelajaran-mesin-uap-peytahnxjtvvavckoe8xdc.streamlit.app/)
+Aplikasi web ini dapat diakses melalui tautan berikut:  [Sentimen Wisata](https://pembelajaran-mesin-uap-peytahnxjtvvavckoe8xdc.streamlit.app/)
 
 ---
 
