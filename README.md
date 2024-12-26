@@ -1,6 +1,6 @@
 # 🌲 Analisis Sentimen Ulasan Wisata Alam untuk Meningkatkan Pengalaman Pengunjung 🌿
 
-![Wisata Alam]([https://via.placeholder.com/800x400.png?text=Wisata+Alam](https://www.google.com/imgres?q=wisata%20alam%20&imgurl=https%3A%2F%2Fstatic.promediateknologi.id%2Fcrop%2F0x0%3A0x0%2F0x0%2Fwebp%2Fphoto%2Fradarmojokerto%2F2023%2F05%2FAir-Terjun-Dlundung-_1_.jpg&imgrefurl=https%3A%2F%2Fradarmojokerto.jawapos.com%2Fwisata-kuliner%2F821024691%2Ftujuh-wisata-alam-recommended-di-mojokerto-wajib-dikunjungi-saat-kemarau&docid=Nz4EoBx7U0B9pM&tbnid=c0ybXnWyWGjEyM&vet=12ahUKEwivpbmyqMOKAxWaTGwGHYj_DpgQM3oECHAQAA..i&w=680&h=453&hcb=2&ved=2ahUKEwivpbmyqMOKAxWaTGwGHYj_DpgQM3oECHAQAA))
+![Wisata Alam]([https://via.placeholder.com/800x400.png?text=Wisata+Alam])
 
 ---
 ## **Table of Contents**
@@ -127,7 +127,9 @@ Berikut fitur utama dari tampilan web ini:
   - Hasil Prediksi dan Visualisasi: Prediksi sentimen ditampilkan dengan penjelasan singkat, dilengkapi dengan visualisasi probabilitas setiap kategori sentimen.
 ---
  **ampilan Input dan Pilihan Model**   
-![Image](https://raw.githubusercontent.com/username/repository/main/image/image2.png)
+![Image2](https://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image2.png?raw=true)
+![Image3](https://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image3.png?raw=true)
+![Image](ttps://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image2.png?raw=true)
 
 ---
 
