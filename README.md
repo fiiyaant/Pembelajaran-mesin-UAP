@@ -44,7 +44,7 @@ Dataset berisi ulasan wisata alam yang mencakup beberapa kolom:
 | `accessibility` | Tingkat aksesibilitas ke lokasi.       |
 
 ---
-## ⚙️ Installation
+## ⚙️Installation
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di lokal Anda:
 **1.Clone Repository**
