@@ -1,6 +1,7 @@
 # 🌲 Analisis Sentimen Ulasan Wisata Alam untuk Meningkatkan Pengalaman Pengunjung 🌿
 
-![Wisata Alam]([https://via.placeholder.com/800x400.png?text=Wisata+Alam])
+![Wisata Alam](https://example.com/path/to/image.jpg)
+
 
 ---
 ## **Table of Contents**
@@ -128,13 +129,11 @@ Berikut fitur utama dari tampilan web ini:
 ---
  **ampilan Input dan Pilihan Model**   
 ![Image2](https://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image2.png?raw=true)
-![Image3](https://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image3.png?raw=true)
-![Image](ttps://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image2.png?raw=true)
 
 ---
 
 **Prediksi Sentimen dan Distribusi Probabilitas**
-![Image](https://raw.githubusercontent.com/username/repository/main/image/image3.png)
+![Image3](https://github.com/fiiyaant/Pembelajaran-mesin-UAP/blob/ae05f41a0a417c7a6d631a457edbecd32b333248/image/image3.png?raw=true)
 
 ---
 
