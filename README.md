@@ -125,17 +125,14 @@ Berikut fitur utama dari tampilan web ini:
   - Masukan Teks Ulasan: Pengguna dapat memasukkan ulasan wisata mereka ke dalam kotak teks yang telah disediakan.
   -Tombol Prediksi Sentimen: Dengan sekali klik tombol, hasil prediksi sentimen akan langsung ditampilkan.
   - Hasil Prediksi dan Visualisasi: Prediksi sentimen ditampilkan dengan penjelasan singkat, dilengkapi dengan visualisasi probabilitas setiap kategori sentimen.
+---
  **ampilan Input dan Pilihan Model**   
 ![Image](https://raw.githubusercontent.com/username/repository/main/image/image2.png)
 
+---
 
 **Prediksi Sentimen dan Distribusi Probabilitas**
 ![Image](https://raw.githubusercontent.com/username/repository/main/image/image3.png)
-
-
-
-
-
 
 ---
 
