@@ -126,10 +126,11 @@ Berikut fitur utama dari tampilan web ini:
   -Tombol Prediksi Sentimen: Dengan sekali klik tombol, hasil prediksi sentimen akan langsung ditampilkan.
   - Hasil Prediksi dan Visualisasi: Prediksi sentimen ditampilkan dengan penjelasan singkat, dilengkapi dengan visualisasi probabilitas setiap kategori sentimen.
  **ampilan Input dan Pilihan Model**   
-image/image2.png
+![Image](https://raw.githubusercontent.com/username/repository/main/image/image2.png)
+
 
 **Prediksi Sentimen dan Distribusi Probabilitas**
-image/image3.png
+![Image](https://raw.githubusercontent.com/username/repository/main/image/image3.png)
 
 
 
