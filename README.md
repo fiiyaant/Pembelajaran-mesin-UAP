@@ -1,6 +1,6 @@
 # 🌲 Analisis Sentimen Ulasan Wisata Alam untuk Meningkatkan Pengalaman Pengunjung 🌿
 
-![Wisata Alam](https://example.com/path/to/image.jpg)
+![Wisata Alam](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkemenparekraf.go.id%2Fragam-pariwisata%2FDestinasi-Wisata-Indonesia-Jadi-Tempat-Liburan-Pesohor-Dunia&psig=AOvVaw3-8R5dF2yoI-RE3n0Pvg2Z&ust=1735265155325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjfi_qsxIoDFQAAAAAdAAAAABAE)
 
 
 ---
