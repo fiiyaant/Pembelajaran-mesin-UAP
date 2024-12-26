@@ -115,7 +115,21 @@ Proyek ini menggunakan dua model utama untuk analisis sentimen:
   - Kesimpulan: Sama seperti LSTM, model GRU juga mengalami masalah class imbalance, meskipun       sedikit lebih baik dalam menangani kelas minoritas tertentu (kelas 4).
 ---
 🌐 Web
-Aplikasi ini memiliki antarmuka web interaktif yang memungkinkan pengguna memasukkan ulasan wisata dan memilih model untuk prediksi. Berikut adalah cuplikan aplikasi web:
+Web ini memiliki antarmuka web interaktif yang memungkinkan pengguna memasukkan ulasan wisata dan memilih model untuk prediksi. Berikut adalah cuplikan aplikasi web:
+![image](https://github.com/user-attachments/assets/d820d40b-07f2-495d-aabd-4da54654fabd)
+
+**Notes**
+Web ini dirancang untuk memudahkan pengguna yang ingin menganalisis sentimen ulasan wisata tanpa memerlukan pengetahuan teknis. Pengguna hanya perlu memasukkan ulasan wisata dan memilih model yang ingin digunakan, lalu aplikasi akan memberikan hasil prediksi secara real-time.
+Berikut fitur utama dari tampilan web ini:
+  - Pilihan Model Prediksi: Pengguna dapat memilih antara model LSTM atau GRU untuk melakukan analisis sentimen.
+  - Masukan Teks Ulasan: Pengguna dapat memasukkan ulasan wisata mereka ke dalam kotak teks yang telah disediakan.
+  -Tombol Prediksi Sentimen: Dengan sekali klik tombol, hasil prediksi sentimen akan langsung ditampilkan.
+  - Hasil Prediksi dan Visualisasi: Prediksi sentimen ditampilkan dengan penjelasan singkat, dilengkapi dengan visualisasi probabilitas setiap kategori sentimen.
+
+
+
+
+
 
 
 ---
